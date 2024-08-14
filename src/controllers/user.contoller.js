@@ -3,9 +3,8 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import jwt from "jsonwebtoken";
-
 import { Sequelize, where } from "sequelize";
-import Op from "sequelize";
+
 
 const generateAccessAndRefreshToken = async (userId) => {
   try {
