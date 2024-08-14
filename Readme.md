@@ -41,3 +41,19 @@ npm install
 3. Start The Project
 
 npm run dev
+
+
+//environment Variables required
+
+export DB_HOST = localhost
+export DB_PORT = 8000
+export DB_USER = <userUsername>
+export DB_PASS = <yourPassword>
+
+export CORS_ORIGIN =*
+
+export ACCESS_TOKEN_SECRET=hfiohwef98c80ru2q30727cfoijiooicimiwjoi90c392uf9
+export ACCESS_TOKEN_EXPIRY = 1d
+
+export  REFRESH_TOKEN_SECRET=jnoijuqhdquhuhui-d8q8878wwydtqgndubc-yekjbieyugh
+export REFRESH_TOKEN_EXPIRY=10d
