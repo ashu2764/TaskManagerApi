@@ -1,6 +1,9 @@
 ## Postman Documentation
 https://documenter.getpostman.com/view/28173427/2sA3s6GVdz
 
+## docker 
+docker pull ashu2764/task-manager-api
+
 ## Task Management API
 # Overview
 The Task Management API is a RESTful service designed for managing tasks within a project or workflow. Built using Node.js, Express, and Sequelize with PostgreSQL as the database, this API allows users to create, read, update, and delete tasks, offering robust data validation and secure authentication mechanisms.
