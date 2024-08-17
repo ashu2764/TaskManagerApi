@@ -4,7 +4,6 @@
   "description": "Task management api with user crud operation with PostgreSQL database ",
   "main": "index.js",
   "type": "module",
-
   "scripts": {
     "dev": "nodemon -r dotenv/config src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

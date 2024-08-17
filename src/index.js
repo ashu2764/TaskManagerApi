@@ -25,7 +25,7 @@ dotenv.config({
     const res = await client.query("SELECT $1::text as connected", [
       "Connection to postgres successful!",
     ]);
-    console.log(res.rows[0].connected);
+    // console.log(res.rows[0].connected);
   } catch (err) {
     console.error("Error connecting to the database:", err);
   } finally {

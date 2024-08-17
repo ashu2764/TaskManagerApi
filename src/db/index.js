@@ -3,7 +3,7 @@ import { userSchema } from "../models/user.models.js";
 import { taskSchema } from "../models/task.models.js";
 
 const sequelize = new Sequelize(
-  "postgres",
+  process.env.DB_NAME,
   process.env.DB_USER,
   process.env.DB_PASS,
   {
